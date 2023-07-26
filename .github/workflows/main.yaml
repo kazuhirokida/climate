@@ -28,5 +28,4 @@ jobs:
           git config --global user.name ${{ secrets.NAME }}
           git add .
           git commit -m 'Update csv files'
-          git checkout -b master
           git push origin main
